@@ -5,7 +5,7 @@ This task is designed to be an open ended, low impact opportunity for you to dem
 
 The Exercise does not have a "correct answer", and is designed to help you demonstrate to the hiring manager how you approach problems and what attributes you feel contribute positively or negatively to the software development process.
 
-It is intended that applicants take no more than approximately **1 hour** to complete this task once [Setup](#setup) is complete.
+It is intended that applicants take no more than approximately **1 hour** to complete this task following [Setup](#setup) and [Running the Script](#running-the-script).
 
 ## Prerequisites
  - Basic Javascript knowledge
@@ -16,6 +16,28 @@ It is intended that applicants take no more than approximately **1 hour** to com
  - Fork this repository into your own github account
  - Make the newly forked repository "Private", to hide your work from others
  - Checkout the "main" branch and begin the Exercise
+
+## Running the Script
+### Option 1: Node.js on Workstation
+ - Download and Install Node.js
+ - In the root of the repository, execute
+```
+node -e "require(\"./index\").handler({})"
+```
+
+### Option 2: Docker
+ - Download and Install Docker
+ - In the root of the repository, execute
+```
+docker run --rm -v "%cd%":/usr/src/app -w /usr/src/app node node -e "require(\"./index\").handler({})"
+```
+
+### Example Output
+```
+Loading hello world function
+request: {}
+response: {"statusCode":200,"headers":{"x-custom-header":"my custom header value"},"body":"{\"message\":\"Good day, you of World.\",\"input\":{}}"}
+```
 
 ## Scenario
 You are being asked to improve the quality of the code provided in [index.js](index.js).
