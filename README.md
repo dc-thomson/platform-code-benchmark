@@ -20,7 +20,7 @@ It is intended that applicants take no more than approximately **1 hour** to com
 ## Scenario
 You are being asked to improve the quality of the code provided in [index.js](index.js).
 
-The [index.js](index.js) file in this repository contains code that is used to handle a simple API call. The code is invoked by AWS Lambda which calls the "handler" function, providing the "event" and "context" objects according to the information provided by the API call.
+The [index.js](index.js) file in this repository contains code that is used to handle a simple API call. The code is invoked by AWS Lambda which calls the "handler" function, providing the "event" object according to the information provided by the API call (event contains the parameters of the request).
 
 ## Output
 We are expecting:
