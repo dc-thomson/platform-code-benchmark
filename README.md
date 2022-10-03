@@ -20,7 +20,13 @@ It is intended that applicants take no more than approximately **1 hour** to com
 ## Scenario
 You are being asked to improve the quality of the code provided in [index.js](index.js).
 
-The [index.js](index.js) file in this repository contains code that is used to handle a simple API call. The code is invoked by AWS Lambda which calls the "handler" function, providing the "event" object according to the information provided by the API call (event contains the parameters of the request).
+The [index.js](index.js) file in this repository contains code that is used to handle a simple API call, which responds with a message compiled from some simple information provided in the request, e.g.
+```
+Good day, you of World.
+```
+
+All you need to know for the purposes of this exercise is that an external service will invoke the `handler` function, providing an object containing information about the request in a parameter `event`.
+> **Extra Detail**: In reality, the code is invoked by AWS Lambda which is configured to call the `handler` function, providing the `event` object according to the information provided by the API call. The Lambda is trigger by a request made to API Gateway.
 
 ## Output
 We are expecting:
