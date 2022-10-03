@@ -1,7 +1,7 @@
 # Platform Code Benchmark
 Welcome to the Code Benchmarking Exercise for the Platform Tribe!
 
-This task is designed to be an open ended, low impact opportunity for you to demonstrate how you approach code with an emphasis on quality and awareness of good development practises.
+This task is designed to be an open ended, low impact opportunity for you to demonstrate how you approach code with an emphasis on quality and awareness of good development practices.
 
 The Exercise does not have a "correct answer", and is designed to help you demonstrate to the hiring manager how you approach problems and what attributes you feel contribute positively or negatively to the software development process.
 
@@ -26,8 +26,8 @@ The [index.js](index.js) file in this repository contains code that is used to h
 We are expecting:
  - the "main" branch to contain all code and files to be submitted
  - the submitted code to produce the same results as the original code
- - the submitted code is more readable than the original code and follows good practise
- - the git commit history is understandable and follows good practise
+ - the submitted code is more readable than the original code and follows good practice
+ - the git commit history is understandable and follows good practice
  - [Optional] A "NEXT_STEPS.md" file containing potential improvements that a subsequent developer could make, assuming they are large enough to be outside of the scope of this Exercise
 
 ## Submission
