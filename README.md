@@ -15,8 +15,10 @@ It is intended that applicants take no more than approximately **1 hour** to com
 ## Setup
 Either:
  - Download the Zip of this repository, then use it to create a new git repo in your own github account
- or
- - Checkout the main branch then change the remote of your local repo to point to a new repository in your own github account
+ 
+or
+
+- Checkout the main branch then change the remote of your local repo to point to a new repository in your own github account
 
 ## Running the Script
 ### Option 1: Node.js on Workstation
