@@ -13,9 +13,10 @@ It is intended that applicants take no more than approximately **1 hour** to com
  - Personal Github Account and Basic Github Familiarity
 
 ## Setup
- - Fork this repository into your own github account
- - Make the newly forked repository "Private", to hide your work from others
- - Checkout the "main" branch and begin the Exercise
+Either:
+ - Download the Zip of this repository, then use it to create a new git repo in your own github account
+ or
+ - Checkout the main branch then change the remote of your local repo to point to a new repository in your own github account
 
 ## Running the Script
 ### Option 1: Node.js on Workstation
